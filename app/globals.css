@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: 'Inter', 'Inter Fallback', ui-sans-serif, system-ui, sans-serif;
+  --font-heading: 'Oswald', 'Oswald Fallback', ui-sans-serif, system-ui, sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-steel: var(--steel);
+
+  --radius: 0.25rem;
+}
+
+:root {
+  /* Industrial steel palette */
+  --background: #16181c;
+  --foreground: #edeef0;
+  --card: #1e2126;
+  --card-foreground: #edeef0;
+  --muted: #262a30;
+  --muted-foreground: #9aa1ac;
+  --border: #2f343c;
+  /* Hot metal / welding spark accent */
+  --primary: #f2661a;
+  --primary-foreground: #16181c;
+  --accent: #ffb020;
+  --accent-foreground: #16181c;
+  --steel: #4a5361;
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
