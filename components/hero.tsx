@@ -18,7 +18,7 @@ export function Hero() {
           </h1>
 
           <p className="max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-            O ForjaFlow reúne orçamentos, ordens de serviço, controle de materiais e clientes em um só
+            O Riscato reúne orçamentos, ordens de serviço, controle de materiais e clientes em um só
             lugar. Ganhe tempo na oficina e feche mais trabalhos sem depender de caderno e planilha.
           </p>
 

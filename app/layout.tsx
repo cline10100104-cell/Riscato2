@@ -16,7 +16,7 @@ const oswald = Oswald({
 })
 
 export const metadata: Metadata = {
-  title: 'ForjaFlow — Gestão completa para serralherias',
+  title: 'Riscato — Gestão completa para serralherias',
   description:
     'O software que organiza orçamentos, ordens de serviço, materiais e clientes da sua serralheria. Menos papelada, mais projetos entregues no prazo.',
   keywords: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     'sistema para serralheiro',
   ],
   openGraph: {
-    title: 'ForjaFlow — Gestão completa para serralherias',
+    title: 'Riscato — Gestão completa para serralherias',
     description:
       'Organize orçamentos, ordens de serviço e materiais da sua serralheria em um só lugar.',
     type: 'website',

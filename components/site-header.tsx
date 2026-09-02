@@ -21,7 +21,7 @@ export function SiteHeader() {
             <Flame className="h-5 w-5" aria-hidden="true" />
           </span>
           <span className="font-heading text-xl font-700 uppercase tracking-wide">
-            Forja<span className="text-primary">Flow</span>
+            Ris<span className="text-primary">cato</span>
           </span>
         </a>
 

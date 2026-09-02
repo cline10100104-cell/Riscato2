@@ -26,7 +26,7 @@ export function SiteFooter() {
                 <Flame className="h-5 w-5" aria-hidden="true" />
               </span>
               <span className="font-heading text-xl font-700 uppercase tracking-wide">
-                Forja<span className="text-primary">Flow</span>
+                Ris<span className="text-primary">cato</span>
               </span>
             </a>
             <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
@@ -57,7 +57,7 @@ export function SiteFooter() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 sm:flex-row">
           <p className="text-sm text-muted-foreground">
-            {`© ${new Date().getFullYear()} ForjaFlow. Todos os direitos reservados.`}
+            {`© ${new Date().getFullYear()} Riscato. Todos os direitos reservados.`}
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-sm text-muted-foreground transition-colors hover:text-foreground">

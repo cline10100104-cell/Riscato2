@@ -51,7 +51,7 @@ export function Features() {
             Feito para o dia a dia da oficina
           </h2>
           <p className="mt-4 text-pretty text-muted-foreground leading-relaxed">
-            Do primeiro contato do cliente até a entrega da peça, o ForjaFlow cuida da parte
+            Do primeiro contato do cliente até a entrega da peça, o Riscato cuida da parte
             burocrática para você focar no que faz de melhor: trabalhar o metal.
           </p>
         </div>
